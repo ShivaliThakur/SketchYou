@@ -1,0 +1,81 @@
+#timer{
+    float: left;
+    padding: 10px 100px 10px 100px;
+    font-family: comic;
+    border: 2px salmon solid;
+    background-color: chartreuse;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 100px;
+}
+
+#scoreTag{
+    float: right;
+    padding: 10px 100px 10px 100px;
+    font-family: comic;
+    border: 2px salmon solid;
+    background-color: chartreuse;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 100px;
+}
+
+body{
+    text-align: center;
+    background-image: url('https://i.pinimg.com/originals/29/55/be/2955be46d65d0c0f710b2571fa51c626.jpg');
+    background-position: center;
+    background-size:  100%;
+    
+}
+
+h1{
+    background-color:deeppink ;
+    color:lightgreen;
+    font-family: 'Times New Roman';
+}
+
+#sketches{
+    float: right;
+}
+
+#doodle{
+    font-family: comic;
+    border: 2px salmon solid;
+    background-color: chartreuse;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#confidence{
+    font-family: comic;
+    border: 2px salmon solid;
+    background-color: chartreuse;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#stbd{
+    font-family: comic;
+    border: 2px salmon solid;
+    background-color: chartreuse;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+canvas{
+    border: 10px aquamarine dotted;
+    border-radius: 20px;
+    animation-name: animation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation{
+    from{box-shadow: 20px 20px 80px lightcoral;}
+    to{box-shadow: 20px 20px 80px lightseagreen;}
+}
+
+#pen{
+    background-image: url('pen.jpg');
+    background-size: contain;
+}
